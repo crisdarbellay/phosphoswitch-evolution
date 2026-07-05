@@ -265,7 +265,7 @@ They are computational waypoints that revealed the sequence landscape.
 
 If you use this code please cite:
 
-> Darby C. *et al.* (in preparation). Mechanism-guided directed evolution of
+> Darbellay C. *et al.* (in preparation). Mechanism-guided directed evolution of
 > phosphoswitch proteins using iterative in silico mutagenesis.
 
 ---
