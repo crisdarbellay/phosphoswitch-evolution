@@ -11,14 +11,13 @@ mutations could amplify phosphorylation-driven conformational switching in
 **LMNA** (Y45, Src kinase) and **MAPRE1** (Y247, Src kinase).
 
 <p align="center">
-  <img src="examples/figures/Figure1_Pipeline_Summary.png" width="540" alt="Directed evolution pipeline: 5 rounds of single-mutant scan"/>
-  <br><em>5-round single-mutant scan: all single-aa variants scored per round; top 4 carry forward. Best LMNA hit: L20P_D25R_L37E_A42P_T49P (RMSD 17.3 Å).</em>
-</p>
-
-<p align="center">
-  <img src="examples/figures/Figure2_Comparative_Analysis.png" width="420" alt="Score distributions LMNA vs MAPRE1 across rounds"/>
-  &nbsp;
-  <img src="examples/figures/Figure3_Experimental_Validation.png" width="380" alt="CD spectra: evolved candidates vs WT ± Src kinase"/>
+  <img src="examples/figures/evolution_figure_pub.png" width="860"
+       alt="In silico directed evolution: score progression, structural divergence, and mutation accumulation heatmap across 5 rounds"/>
+  <br><em>
+  <strong>A</strong>: Contact Δ score climbs monotonically from 3.0 (round 1) to 18.6 (round 5, best overall).
+  <strong>B</strong>: Cα RMSD from WT reaches 17.3 Å — a large-amplitude conformational shift.
+  <strong>C</strong>: Mutation accumulation heatmap for the L3 lineage — proline substitutions (orange) and charged residues (teal) accumulate progressively before converging on the 5-mutation round-5 winner.
+  </em>
 </p>
 
 > **Note on module boundaries.** This package is a standalone analysis tool.
