@@ -10,6 +10,17 @@ This module implements the iterative single-mutant scan used to explore which
 mutations could amplify phosphorylation-driven conformational switching in
 **LMNA** (Y45, Src kinase) and **MAPRE1** (Y247, Src kinase).
 
+<p align="center">
+  <img src="examples/figures/Figure1_Pipeline_Summary.png" width="540" alt="Directed evolution pipeline: 5 rounds of single-mutant scan"/>
+  <br><em>5-round single-mutant scan: all single-aa variants scored per round; top 4 carry forward. Best LMNA hit: L20P_D25R_L37E_A42P_T49P (RMSD 17.3 Å).</em>
+</p>
+
+<p align="center">
+  <img src="examples/figures/Figure2_Comparative_Analysis.png" width="420" alt="Score distributions LMNA vs MAPRE1 across rounds"/>
+  &nbsp;
+  <img src="examples/figures/Figure3_Experimental_Validation.png" width="380" alt="CD spectra: evolved candidates vs WT ± Src kinase"/>
+</p>
+
 > **Note on module boundaries.** This package is a standalone analysis tool.
 > It is separate from the multi-state protein design pipeline
 > (`phospho_switch_pipeline`). The two modules address complementary
